@@ -13,11 +13,11 @@ Dependencies:
 - Any C Compiler (I recommend [[https://gcc.gnu.org/][GCC])
 
 First, generate a build tree using CMake.
-#+begin_src shell
+```shell
     cmake -G
-#+end_src
+```
 
 Finally, build an executable from the build tree.
-#+begin_src shell
+```shell
     cmake --build build
-#+end_src
+```
