@@ -15,4 +15,6 @@
  - [ ] Get Logo's and Icon done and designed (Minimalist Goat Silhouette)
  
  - [ ] Make mascot
+
+ - [ ] Decide whether or not I want to implement a Functional Programming and Object Oriented Programming compiler switch (throw different warnings and promote different styles of code)
  
