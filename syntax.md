@@ -38,8 +38,11 @@ fn Main() {
         i *= 3;
     }
 
-    if (s == "a string") {
+    if (a == "a string") {
         // Print function
+        output(a);
+        output("Variable Name: \ta");
+        output("Variable Value: \t{a}");
         // Output: {VarName} is {VarVal}
     }
 }
@@ -61,6 +64,14 @@ fn Example2() -> string {
     string msg = "hello";
 
     return(msg);
+}
+
+fn Compare_File_Content(string: FILE_DIR) {
+    // File Access func needs the file directory and the permission needed (read - 0, write & read - 2, execute - 3)
+    string Content_Arr[] = file_access_func(FILE_DIR, 0);
+    if (Content_Arr[1] =~ m!^/[hH]ello [wW]orld\! $!) {
+        output("");
+    }
 }
 
 fn GlobalFunction_Example() {

@@ -11,6 +11,8 @@
 
  - [ ] Decide whether or not to have SDL support (out of the box) or to make using some tools (such as Vulkan) easier with my language (by abstracting shit)
 
+ - [ ] Add RegEx Support
+
 ### Basic after finished main idea type shit
  - [ ] Get Logo's and Icon done and designed (Minimalist Goat Silhouette)
  
