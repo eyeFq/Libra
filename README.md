@@ -10,7 +10,7 @@ Dependencies:
 
 - CMake >= 3.14 (you can get CMake [here](https://cmake.org/) )
 
-- Any C Compiler (I recommend (https://gcc.gnu.org/)[GCC])
+- Any C Compiler (I recommend [GCC](https://gcc.gnu.org/))
 
 First, generate a build tree using CMake.
 ```shell
