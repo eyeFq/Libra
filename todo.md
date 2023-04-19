@@ -3,7 +3,7 @@
 
  - [x] Make a basic plan of syntax and get some basic/easy shit done
 
- - [-] Further plan the syntax
+ - [ ] Further plan the syntax
  
  - [x] Decide whether or not I only use **C** or have C++ in there too
  
