@@ -2,7 +2,7 @@
 
 This is a compiler for a project.
 
-** Building
+## Building
 
 NOTE: Shell commands shown assume a working directory of this repository.
 
