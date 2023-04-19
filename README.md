@@ -7,7 +7,7 @@ Run the executable from the command line/terminal/shell with a path to the sourc
 
 Example (if it's in the sys path)
 ```shell
-librc example.libsrc
+libra example.libsrc
 ```
 
 ## Building

@@ -16,6 +16,6 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 project(LibraCompiler C)
 
 add_executable(
-    librac
+    libra
     libra_compiler/src/main.c
 )
