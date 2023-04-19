@@ -2,6 +2,14 @@
 
 This is a compiler for a project.
 
+# Usage
+Run the executable from the command line/terminal/shell with a path to the source code you want to compile as the only argument. Currently, we print out the furthest progress we are able to make. Eventually, we will output compiled source code.
+
+Example (if it's in the sys path)
+```shell
+librac example.libsrc
+```
+
 ## Building
 
 NOTE: Shell commands shown assume a working directory of this repository.
