@@ -66,11 +66,14 @@ fn Example2() -> string {
     return(msg);
 }
 
-fn Compare_File_Content(string: FILE_DIR) {
+fn Compare_File_Content(string FILE_DIR_1, string FILE_DIR_2) {
     // File Access func needs the file directory and the permission needed (read - 0, write & read - 2, execute - 3)
-    string Content_Arr[] = file_access_func(FILE_DIR, 0);
-    if (Content_Arr[1] =~ m!^/[hH]ello [wW]orld\! $!) {
-        output("");
+    string Content_Arr_1[] = file_access_func(FILE_DIR, 0);
+    string Content_Arr_2[] = file_access_func(FILE_DIR, 0);
+    if (Content_Arr_1[0] =~ m!^/[hH]ello [wW]orld\! $! && Content_Arr_2[0] =~ m!^/[hH]ello [wW]orld\! $!) {
+        output("First line of file 1 & 2 are \"Hello World\"");
+    } else {
+        output("First line of file 1 & 2 are either not \"Hello World\" or are not the same");
     }
 }
 
